@@ -1,0 +1,230 @@
+.comment-list{
+  list-style-type: none;
+  .comment_sticky{
+    color: darkred;
+  }
+}
+
+.comment-list-wrapper_communication {
+  padding: 0px;
+
+  .comment-line-textarea {
+    position: initial;
+  }
+
+  .comment-user-list {
+    top: 100%;
+    bottom: auto !important;
+    z-index:20 !important;
+  }
+}
+
+.user-avatar-image {
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  background-color: #376aa7;
+  border-radius: 100%;
+  min-width: 28px;
+  min-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.comment-list__create{
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  .comment-line{
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .comment-edit-box .comment-edit-textarea{
+    padding: 14px 0 14px 45px;
+  }
+  .comment-box .comment-textarea{
+    font-size: 18px;
+  }
+  .comment-edit-box .btn-send{
+    left: 17px;
+    top: 15px;
+  }
+  .comment-line-controls{
+    padding-top: 17px;
+  }
+  .comment-edit-box .comment-log-time{
+    padding-top: 35px;
+  }
+  .comment-attachment-files{
+    margin: 0;
+  }
+}
+
+.comment-list_communication {
+  //padding: 20px;
+  //border-radius: 5px;
+  //background-color: #fff;
+  margin-top: 10px;
+  //.comment-list{
+  //  max-width: 600px;
+  //}
+}
+
+.comment-list-content_communication{
+  padding-bottom: 20px;
+  position: relative;
+  /*.comment-list{
+    padding: 0 !important;
+    li {
+      width: 100%;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .comment-item {
+      padding-bottom: 0;
+      display: flex;
+      //max-width: 600px;
+    }
+  }*/
+  .comments-filter{
+    top: 15px !important;
+  }
+}
+
+.button-show-replies{
+  margin-left: 5px;
+  position: relative;
+}
+
+.comment-item__left{
+  margin-right: 15px;
+}
+.comment-item__right{
+  width: 100%;
+}
+.comment-item__header {
+  display: flex;
+}
+.comment-item__header-controls{
+  margin-left: 15px;
+  .custom-fa-log, .custom-fa-log-del{
+    font-size: 14px;
+  }
+}
+
+.comment-reply-controls{
+  display: inline-block;
+  margin-right: 5px;
+}
+.comment-reply-controls + .comment-edit-box{
+  margin-top: 10px;
+}
+
+.comment-list-content_communication .comment-item__content .comment-list li{
+  padding-bottom: 0;
+}
+
+.comment-count-replies{
+  border-radius: 10px;
+  background-color: #dc3318;
+  color: #fff;
+  padding: 3px;
+  font-size: 8px;
+  line-height: 8px;
+  position: absolute;
+  top: -5px;
+  right: -1px;
+  min-width: 13px;
+  height: 13px;
+}
+
+.comment-item-likes{
+  display: inline-block;
+  position: relative;
+  .comment-item-likes__count{
+    position: absolute;
+    right: -4px;
+    top: -1px;
+    border-radius: 10px;
+    background-color: #dc3318;
+    color: #fff;
+    padding: 3px;
+    min-width: 14px;
+    text-align: center;
+    font-family: inherit;
+    font-weight: bold;
+
+    width: 13px;
+    height: 13px;
+    font-size: 8px;
+    line-height: 8px;
+  }
+  .comment-item-likes__members{
+    position: absolute;
+    display: flex;
+    background-color: #333333;
+    color: #fff;
+    padding: 4px;
+    top: 20px;
+    left: 100%;
+    box-shadow: 0 4px 7px rgba(0,0,0,0.5);
+  }
+  .comment-item-likes__member{
+    white-space: nowrap;
+    line-height: normal;
+    padding: 2px 0;
+  }
+}
+
+.comments-filter-list-item_time-range{
+  display: flex !important;
+  align-items: center;
+  .comments-filter-list-item-text-range{
+    font-weight: bold;
+    padding-right: 5px;
+  }
+  .datepicker{
+    width: 167px;
+    display: block;
+    min-width: inherit !important;
+    > input {
+      padding: 0;
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      &::-webkit-input-placeholder {
+        color: #333;
+      }
+      &::-moz-placeholder {
+        color: #333;
+      }
+      &:-ms-input-placeholder {
+        color: #333;
+      }
+      &:-moz-placeholder {
+        color: #333;
+      }
+    }
+    &:before {
+      background: none
+    }
+  }
+  .datepicker-popup{
+    right: 0;
+  }
+}
+
+.comments-filter-list-item_indent-top {
+  margin-top: 15px;
+}

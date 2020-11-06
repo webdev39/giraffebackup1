@@ -1,0 +1,20 @@
+// Colours
+.text-grey { color: #B7B7B7; }
+
+// Spacing
+.m-0 { margin: 0; }
+.mb-2 { margin-bottom: 10px; }
+
+// Flex
+.flex-1 { flex: 1;  }
+
+// Type
+.link {
+	cursor: pointer;
+	text-decoration: none;
+
+	&:hover {
+		color: #376AA7;
+		text-decoration: underline;
+	}
+}

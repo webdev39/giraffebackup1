@@ -1,0 +1,29 @@
+.multiselect {
+  .multiselect__tags {
+    .multiselect__tag {
+      background-color: #3097D1;
+
+      .multiselect__tag-icon {
+        line-height: 20px;
+
+        &:after {
+          position: relative;
+          top: 1px;
+          color: #fff;
+        }
+
+        &:focus,
+        &:hover {
+          background-color: transparent !important;
+        }
+      }
+    }
+  }
+
+  .multiselect__option--highlight,
+  .multiselect__option--highlight:after {
+    background: #5078f2 !important;
+    outline: none;
+    color: #fff;
+  }
+}

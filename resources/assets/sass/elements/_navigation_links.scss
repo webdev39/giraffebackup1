@@ -1,0 +1,28 @@
+$color-accent: #fff;
+
+.navigation-links{
+  margin-top: 18px;
+}
+
+.navigation-links__list{
+  padding-left: 0;
+  list-style: none;
+}
+
+.navigation-links__item{
+  padding: 2px 0;
+}
+
+.navigation-links__link{
+  text-decoration: none !important;
+}
+
+.navigation-links_theme_black{
+  .router-link-active{
+    color: rgba(255,255,255,0.6);
+    &:hover{
+      color: $color-accent;
+    }
+  }
+}
+

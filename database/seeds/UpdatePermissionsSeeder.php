@@ -1,0 +1,52 @@
+<?php
+
+use App\Models\Permission;
+use App\Models\Role;
+use Illuminate\Database\Seeder;
+
+class UpdatePermissionsSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        $defaultRoles = [
+            Role::SUPER_ADMIN_ROLE,
+            Role::OWNER_ROLE,
+            Role::ADMIN_ROLE,
+            Role::MEMBER_ROLE,
+            Role::MEMBER_ROLE_1,
+            Role::EXTERNAL_ROLE,
+            Role::GROUP_LEADER_ROLE,
+            Role::GROUP_MEMBER_ROLE,
+            Role::CUSTOM_ROLE,
+            Role::PRIVILEGED_MEMBER_ROLE,
+            Role::PRIVILEGED_MEMBER_ROLE_2,
+            Role::PRIVILEGED_MEMBER_ROLE_3
+        ];
+        foreach ($defaultRoles as $defaultRole) {
+            $role = Role::where('name', $defaultRole['name'])->first();
+            if ($role) {
+                /** @var Role $role */
+                $role->name         = $defaultRole['name'];
+                $role->display_name = $defaultRole['display_name'];
+                $role->description  = $defaultRole['description'];
+                $role->is_default   = 1;
+                $role->save();
+            }
+            foreach ($defaultRole['permissions'] as $rolePermission) {
+                /** @var Permission $permission */
+                $permission = Permission::where('name', $rolePermission['name'])->first();
+                if ($permission) {
+                    $permission->name         = $rolePermission['name'];
+                    $permission->display_name = $rolePermission['display_name'];
+                    $permission->description  = $rolePermission['description'];
+                    $permission->save();
+                }
+            }
+        }
+    }
+}

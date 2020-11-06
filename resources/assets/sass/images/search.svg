@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="icons"
+   viewBox="0 0 41.819904 44.020477"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="search.svg"
+   width="41.819904"
+   height="44.020477">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>search</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     id="namedview14"
+     showgrid="false"
+     fit-margin-left="-0.2"
+     fit-margin-top="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.8378581"
+     inkscape:cx="-125.04349"
+     inkscape:cy="-33.937163"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="icons"
+     inkscape:snap-bbox="false"
+     inkscape:bbox-paths="true"
+     inkscape:snap-page="true" />
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient4145"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4147" />
+    </linearGradient>
+    <style
+       id="style5">.cls-1{fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;}</style>
+  </defs>
+  <title
+     id="title7">search</title>
+  <g
+     id="Icon"
+     transform="translate(-470.70001,-469.00001)"
+     style="stroke:#000000;stroke-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;fill-opacity:1;fill-rule:evenodd;stroke-dasharray:none;stroke-dashoffset:0"
+       d="M 499.82001,500.01001 510.5,511"
+       id="line10" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;fill-opacity:1;fill-rule:evenodd;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 505.08001,487.10001 a 16.290001,16.1 0 0 1 -16.29,16.1 16.290001,16.1 0 0 1 -16.29,-16.1 16.290001,16.1 0 0 1 16.29,-16.1 16.290001,16.1 0 0 1 16.29,16.1 z"
+       id="ellipse12" />
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+// general animation
+.fade-enter-active, .fade-leave-active {
+    transition: .25s;
+}
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
+
+// left with opacity animation (for menu ...)
+.transform-left-opacity-enter-active, .transform-left-opacity-leave-active {
+    transition: .25s;
+}
+.transform-left-opacity-enter, .transform-left-opacity-leave-to {
+    transform: translateX(-50px);
+    opacity: 0;
+}

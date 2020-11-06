@@ -1,0 +1,116 @@
+.table-responsive {
+	border: 0;
+	border-radius: 5px;
+	overflow-x: auto;
+	background-color: #FFF;
+	margin: 10px 0;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .16), 0 2px 8px 0 rgba(0, 0, 0, .12);
+
+	.table {
+		box-shadow: none;
+		margin: 0;
+	}
+}
+
+.table {
+	display: table;
+	border-radius: 5px;
+	overflow: hidden;
+	background-color: #FFF;
+	margin: 10px 0;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .16), 0 2px 8px 0 rgba(0, 0, 0, .12);
+
+	.table-head,
+	.table-row {
+		display: table-row;
+
+		.col {
+			display: table-cell;
+			padding: 7px;
+			white-space: nowrap;
+
+			&.first-mbl {
+				@include breakpoint(md) {
+					padding-left: 15px;
+				}
+			}
+
+			&.hide-mbl {
+				@include breakpoint(md) {
+					display: none;
+				}
+			}
+
+			&:first-child {
+				padding-left: 15px;
+			}
+
+			&:last-child {
+				padding-right: 15px;
+			}
+
+			&.action {
+				text-align: center;
+				width: 60px;
+			}
+		}
+	}
+
+	.table-head {
+		.col {
+			font-size: 16px;
+			background-color: #376AA7;
+			color: #FFF;
+			height: 60px;
+			vertical-align: middle;
+		}
+	}
+
+	.table-row {
+		.col {
+			border-bottom: 1px solid #ECECEC;
+			height: 57px;
+			vertical-align: middle;
+
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+
+		&:nth-child(even) {
+			.col {
+				background-color: #F5F5F5;
+			}
+		}
+	}
+
+	.action {
+		text-align: right;
+
+		i.icon {
+			cursor: pointer;
+			margin: 0 4px;
+			font-size: 18px;
+			display: inline-block;
+			color: #636B6F;
+			vertical-align: top;
+
+			&:hover {
+				color: #376AA7;
+			}
+		}
+
+		svg.icon {
+			cursor: pointer;
+			margin: 0 4px;
+			width: 18px;
+			height: 18px;
+			display: inline-block;
+			fill: #636B6F;
+
+			&:hover {
+				fill: #376AA7;
+			}
+		}
+	}
+}

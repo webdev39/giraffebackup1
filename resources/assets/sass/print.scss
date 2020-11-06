@@ -1,0 +1,77 @@
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+  }
+  #top-wrapper,
+  .navigation-wrapper,
+  .task-item-subscribe,
+  .control-btns-hide,
+  .task-create-holder,
+  .deadline-page .row.task-create,
+  .group-board-info__item_info-setting,
+  .fixed-component__placeholder{
+    display: none !important;
+  }
+  .subscribers__list-item{
+    background-color: #376aa7 !important;
+    span{
+      color: #fff !important;
+    }
+
+  }
+  .task-list-item{
+    border: 1px solid #ededed;
+    border-radius: 0;
+  }
+  .control-btns-wrapper{
+    border: none !important;
+    position: absolute;
+    right: 0;
+    top: 5px;
+  }
+  .task-priority-icon{
+    display: inline-block !important;
+  }
+  .task-name{
+    display: inline-block !important;
+    width: auto !important;
+  }
+  //.task-list-holder{
+  //  .fixed-component{
+  //    display: none !important;
+  //  }
+  //}
+  .task-list .task-create,
+  .task-list .task-wrapper{
+    box-shadow: none !important;
+  }
+  .fixed-component,.fixed-component__content{
+    position: static !important;
+  }
+  .group-board-info{
+    display: block;
+  }
+  .deadline-name,
+  .group-board-info__item{
+    display: inline-block !important;
+    vertical-align: middle;
+  }
+  .deadline-name{
+    span, div{
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  .List{
+    .task-name:before{
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+    .task-name-title{
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}

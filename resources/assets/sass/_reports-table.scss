@@ -1,0 +1,265 @@
+#reports-table-section{
+    // margin-top: 10px;
+    padding-top: 10px;
+    .table-component__table {
+        border-radius: 5px;
+    }
+    .table-root-wrapper{
+        //background-color: white;
+        margin-bottom: 10px;
+    }
+}
+.table-component{
+    position: relative;
+    width: 100%;
+    //overflow-x: auto;
+    .table-component__table-wrapper{
+        width: 100%;
+
+        table.table-component__table{
+            thead.first-head{
+                tr{
+                    th:first-child{
+                        padding: 7px 10px 7px 20px !important;
+                    }
+                }
+            }
+            tbody{
+                tr{
+                    border-bottom-color: #eaeaea;
+
+                    &:nth-child(even) {
+                        td {
+                            background-color: #f4f4f4;
+                            white-space: nowrap;
+                        }
+                    }
+                    td{
+                        background-color: white;
+                        &:first-child{
+                            padding: 15px 10px 15px 20px !important;
+                        }
+                        &:last-child {
+                            padding: 0 10px;
+                        }
+                    }
+                }
+            }
+        }
+        // .table-component__table-group_year_overview {
+        //     background-color: blue;
+            
+        // }
+
+        .table-component__table__head{
+            tr{
+                border-bottom: none !important;
+            }
+        }
+
+        td, th{
+            padding:14px 10px;
+        }
+
+        tr{
+            border-bottom: 1px solid lightgray;
+        }
+        .group-by-tr{
+            //background-color: #5077f2;
+            color: #333;
+            font-weight: bold;
+            border-bottom: none;
+            
+            td{
+            //  background-color: #5077f2 !important;
+            // border:1px solid #333;
+            }
+        }
+
+
+        table{
+            width: 100%;
+            position: relative;
+            z-index: 0;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            background-color: #fff;
+            // border-radius: 5px;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+            .first-head{
+                tr{
+                    height: 60px;
+                    //background-color: #5077f2;
+                    th{
+                        color: white;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .other-head{
+                tr{
+                    height: 0;
+                    font-size: 0;
+                }
+            }
+            .column-group{
+                width: 10%;
+                min-width: 120px;
+            }
+            .column-board{
+                width: 15%;
+                min-width: 120px;
+            }
+            .column-task{
+                //width: 15%;
+                min-width: 120px;
+                width: 200px;
+            }
+            .column-user{
+                width: 12%;
+                min-width: 100px;
+            }
+            .column-time-used{
+                width: 8%;
+                min-width: 130px;
+            }
+            .column-time-bill{
+                width: 8%;
+                min-width: 130px;
+            }
+            .column-billing-status{
+                width: 9%;
+                min-width: 100px;
+            }
+            .column-comment{
+                width: 30%;
+                min-width: 170px;
+            }
+            .column-billed{
+                width: 5%;
+                min-width: 100px;
+            }
+            .column-unbilled{
+                width: 5%;
+                min-width: 100px;
+            }
+
+            .table-component-footer-tr{
+                background-color: lime;
+                border-bottom: none !important;
+            }
+
+            .billing-status-block{
+                width: 12px;
+                height: 12px;
+                display: inline-block;
+                margin-right: 5px;
+                &.mixed{
+                    background: -moz-linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%); /* ff3.6+ */
+                    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,0,255,1)), color-stop(100%, rgba(0,255,255,1))); /* safari4+,chrome */
+                    background: -webkit-linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%); /* safari5.1+,chrome10+ */
+                    background: -o-linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%); /* opera 11.10+ */
+                    background: -ms-linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%); /* ie10+ */
+                    background: linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%); /* w3c */
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffff', endColorstr='#ff00ff',GradientType=1 ); /* ie6-9 */
+                }
+            }
+            .billing-status-pencil{
+                display: inline-block;
+                margin-left: 5px;
+                .icon-pencil {
+                    display: flex;
+                    margin-right: 10px;
+                    cursor: pointer;
+                        .icon {
+                            width: 16px;
+                            height: 16px;
+                            padding: 3px;
+                            background: #5d98de;
+                            fill:#fff;
+                            // border: 1px solid #5d98de;
+                            border-radius: 3px;
+                        }
+                       &:hover {
+                           .icon {
+                               fill: #5d98de;
+                               background: transparent;
+                               border: 1px solid #5d98de;
+                           }
+                       } 
+                }
+            }
+
+            tbody{
+                tr{
+                    &:last-child{
+                        border-bottom: none !important;
+                    }
+                }
+            }
+        }
+        .tableActive {
+            background: #376aa7;
+            .group-by-tr {
+                color: #fff;
+            }
+        }
+    }
+//    #reports-table-section .table-component__table {
+//         border-radius: 5px;
+//     }
+    .table-component__table-group_year_overview {
+        border-radius: 0;
+    }
+    .column-header-hidden{
+        visibility: hidden;
+        padding: 0 !important;
+    }
+    .padding-time-total{
+        padding: 7px 2px 7px 10px !important;
+    }
+    .reports-item-comment{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-height: 16px;
+        max-height: 52px;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        a {
+            color: #3097D1;
+            text-decoration: none;
+            &:hover {
+                color: #67b2d1;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.table-component {
+    .table-component__table-wrapper {
+        table.table-component__table {
+            tbody tr:nth-child(even) {
+                td {
+                    color: #333333;
+                }
+            }
+        }
+    }
+    .table-component__table_year_overview {
+        table.table-component__table tbody tr {
+            &:nth-child(odd) {
+                background-color: #e2e2e2;
+                border-bottom: 1px solid #376aa7 !important;
+
+                td {
+                    color: #333333;
+                }
+                // .hover {
+                //     background: red !important;
+                // }
+            }
+        }
+    }
+}

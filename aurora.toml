@@ -1,0 +1,14 @@
+servers = []
+listen = "0.0.0.0:3000"
+version = 2.1
+
+[openpage]
+enabled = true
+
+[auth]
+enabled = true
+username = "ocam"
+password = "d6fw7g68ch9tpm7GDSwv48y"
+
+[sample]
+storage = "{}"

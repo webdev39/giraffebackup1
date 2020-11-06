@@ -1,0 +1,127 @@
+.timelog-wrapper{
+  position: absolute;
+  background-color: white;
+  z-index: 3;
+  //top: 65px;
+  width: 450px;
+  height: 400px;
+  padding: 10px 0;
+  box-shadow: 0px 0px 1px 1px;
+  @media (max-width: 550px) {
+    width: 80%;
+    left: 50%;
+    margin-left: -40%;
+    position: fixed;
+  }
+}
+.timelog-header{
+  height: 15%;
+}
+.timelog-body{
+  height: 85%;
+  width: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+  padding: 10px;
+}
+.timelog-list{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding-left: 30px;
+}
+
+li.timelog-list-item {
+  position: relative;
+  padding: 0 0 10px 30px;
+  .timelog-list-item-comment {
+    a {
+      color: #3097D1;
+      text-decoration: none;
+      &:hover {
+        color: #67b2d1;
+        text-decoration: underline;
+      }
+    }
+
+  }
+}
+
+.timelog-wrapper ul.timelog-list > li:before{
+  content: "\F067";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 17px;
+  text-align: center;
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  top: 6px;
+  left: -15px;
+  padding: 7px;
+  border-radius: 100%;
+  background: #62a8ea;
+  color: #FFFFFF;
+  z-index: 2;
+}
+.timelog-wrapper ul.timelog-list li:first-child:after{
+  height: calc(100% + 12px);
+  top: -12px;
+}
+.timelog-wrapper ul.timelog-list li:after {
+  border-left: solid 1px #e4eaec;
+  z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.timelog-link{
+  color: #333333;
+  text-decoration: underline;
+  &:focus,&:visited{
+    text-decoration: underline;
+    color: #333333;
+    outline: 0;
+    outline-offset: 0;
+  }
+  &:hover{
+    text-decoration: underline;
+    color: $primary-color;
+  }
+}
+
+.timelog-link-secondary{
+  color: #333333;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  &:focus,&:visited{
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    color: #333333;
+    outline: 0;
+    outline-offset: 0;
+  }
+  &:hover{
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    color: #333333;
+  }
+}
+.waiting-spinner{
+  font-size: 50px;
+  color: #5077f2;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+//.timelog-timer-opened{
+//  right: 50px !important;
+//  @media (max-width: 750px) {
+//    right: 0 !important;
+//  }
+//}

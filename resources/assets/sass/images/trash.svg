@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 14.244235 12.667121"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="trash.svg"
+   width="14.244235"
+   height="12.667121">
+  <metadata
+     id="metadata23">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>trash</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="853"
+     inkscape:window-height="480"
+     id="namedview21"
+     showgrid="false"
+     fit-margin-left="-0.2"
+     fit-margin-bottom="-0.4"
+     fit-margin-top="0"
+     fit-margin-right="0"
+     inkscape:zoom="0.2979798"
+     inkscape:cx="-283.11761"
+     inkscape:cy="99.197971"
+     inkscape:window-x="75"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs3">
+    <style
+       id="style5">.cls-1{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;}</style>
+  </defs>
+  <title
+     id="title7">trash</title>
+  <path
+     class="cls-1"
+     d="m 12.237129,2.65 0,9.91"
+     id="path9"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     class="cls-1"
+     x1="0.30712125"
+     y1="2.6499951"
+     x2="13.737114"
+     y2="2.6499951"
+     id="line11"
+     style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     class="cls-1"
+     x1="4.3271408"
+     y1="11.78"
+     x2="4.3271408"
+     y2="4.9199996"
+     id="line13"
+     style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     class="cls-1"
+     x1="7.0171432"
+     y1="11.78"
+     x2="7.0171432"
+     y2="4.9199996"
+     id="line15"
+     style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round" />
+  <line
+     class="cls-1"
+     x1="9.7071152"
+     y1="11.78"
+     x2="9.7071152"
+     y2="4.9199996"
+     id="line17"
+     style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round" />
+  <path
+     class="cls-1"
+     d="m 4.8271286,2.65 0,-0.87 a 1.29,1.29 0 0 1 1.29,-1.28 l 1.81,0 a 1.29,1.29 0 0 1 1.28,1.28 l 0,0.91"
+     id="path19"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round" />
+</svg>

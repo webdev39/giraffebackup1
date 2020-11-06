@@ -1,0 +1,59 @@
+i {
+  &.ocam {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-image: url('/images/ocam-icons.png');
+    &.white-icon {
+      filter: invert(1);
+    }
+    &.grey-icon {
+      filter: invert(0.65);
+    }
+    &.oc-cog {
+      background-position: 0 0;
+    }
+    &.oc-sheep-wheel {
+      background-position: -18px 0;
+    }
+    &.oc-clock {
+      background-position: -36px 0;
+    }
+    &.oc-turn {
+      background-position: -54px 0;
+    }
+    &.oc-attention {
+      background-position: -72px 0;
+    }
+    &.oc-round {
+      background-position: 0 -18px;
+    }
+    &.oc-close-eye {
+      background-position: -18px -18px;
+    }
+    &.oc-timer {
+      background-position: -36px -18px;
+    }
+    &.oc-document {
+      background-position: -54px -18px;
+    }
+    &.oc-hammer {
+      background-position: -72px -18px;
+    }
+    &.oc-hexagon {
+      background-position: 0 -36px;
+    }
+    &.oc-plus {
+      background-position: -18px -36px;
+    }
+    &.oc-message {
+      background-position: -36px -36px;
+    }
+    &.oc-user {
+      background-position: -54px -36px;
+    }
+    &.oc-star {
+      background-position: -72px -36px;
+    }
+  }
+}

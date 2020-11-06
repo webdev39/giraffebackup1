@@ -1,0 +1,117 @@
+.task-time-status-drop-down,
+.task-time-deadline-drop-down{
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  border: solid 5px #c6c6c6;
+  right: 0;
+  top: 42px;
+  width: 200px;
+  z-index: 2;
+}
+
+.task-time-status-drop-down{
+  top: 20px;
+}
+
+.task-time-status-drop-down__list{
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.task-time-status-drop-down__item{
+  margin-bottom: 5px;
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+
+.task-time-status-drop-down__content{
+  font-size: 14px;
+  color: #898989;
+}
+
+.task-list-item{
+  &:hover{
+    .control-btns{
+      .control-btns-hide{
+        @media (min-width: 990px) {
+          display: block;
+        }
+      }
+    }
+  }
+  .control-btns-wrapper{
+    padding: 0 15px;
+    margin-left: auto;
+
+    @media (min-width: 1231px) {
+      //position: absolute !important;
+      //right: 0;
+      width: 515px;
+      //z-index: 1;
+    }
+    @media (max-width: 1230px) {
+      border-top: 1px solid #f3f3f2;
+      justify-content: flex-start;
+      width: 100%;
+      padding: 0 15px;
+    }
+  }
+  .task-title-wrapper{
+    z-index: 0;
+    display: flex;
+    width: calc(100% - 515px);
+    @media (max-width: 1230px) {
+      width: 100%;
+    }
+  }
+  .control-btns{
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+    @media (min-width: 1231px) {
+      .control-btns-hide{
+        display: none;
+      }
+    }
+  }
+  .task-name{
+    @media (min-width: 992px) {
+      padding-right: 400px;
+    }
+  }
+}
+
+.task-list-item{
+  flex-wrap: wrap;
+  //.control-btns-wrapper{
+  //  height: 100%;
+  //}
+}
+.task-list{
+  .tasks-calendar-wrapper {
+    .task-list-item{
+      .control-btns-wrapper{
+        width: 100%;
+      }
+    }
+    .btn{
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    .task-wrapper {
+      .task-list-item{
+        display: block;
+      }
+      .control-btns{
+        justify-content: flex-start;
+        .control-btns-hide{
+          display: block;
+          visibility: visible;
+        }
+      }
+    }
+  }
+}

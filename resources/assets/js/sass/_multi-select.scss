@@ -1,0 +1,245 @@
+// multi select wrapper dropdown
+.multi-select{
+  position: relative;
+  display: inline-block;
+  padding-left: 25px;
+  border-right: 1px solid #b2b2b240;
+  padding-right: 5px;
+
+  @media (max-width: 800px) {
+    margin-top: 5px;
+    padding-top: 5px;
+    background-color: #5077f2;
+    border-right: 0px;
+  }
+
+  &:last-child{
+    border-right: 0 !important;
+  }
+
+  @media (min-width: 800px) {
+    &:first-child{
+      padding-left: 10px !important;
+    }
+  }
+
+  .multi-select__dropdown{
+    position: absolute;
+    background-color: white;
+    font-size: 14px;
+    height: 200px;
+    overflow-y: auto;
+    z-index: 2;
+    min-width: 200px;
+    top: 40px;
+    left: -1px;
+    border: 1px solid #b2b2b240;
+  }
+  .multi-select__input-dropdown{
+    height: 28px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    min-width: 87px;
+    @media (max-width: 800px) {
+      color: white;
+    }
+
+  }
+  .input-dropdown__selected-items{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /*flex: 1 1 auto;*/
+  }
+  .input-dropdown__angle-down-wrapper{
+    padding-left: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .common-size{
+    flex: 1 1 auto;
+  }
+  .medium-size{
+    flex: 1 1 auto;
+  }
+  .large-size{
+    flex: 1 1 auto;
+  }
+}
+
+@media (min-width: 800px) {
+  .common-size{
+    flex: 1 1 auto;
+    max-width: 15%;
+  }
+  .time-range{
+    max-width:245px;
+  }
+  .medium-size{
+    flex: 2 1 17%;
+    max-width: 17%;
+  }
+  .large-size{
+    flex: 5 1 20%;
+  }
+}
+
+//multi select checkboxes
+.multi-select-checkbox-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+
+  .multi-select-checkbox-label-text{
+    overflow: hidden;
+    display: inline-block;
+    text-align: left;
+  }
+  .multi-select-checkbox-label{
+    padding: 2px;
+  }
+  .label-text{
+    display: inline-flex;
+    height: 20px;
+  }
+  input.multi-select-checkbox{
+    display: none;
+  }
+  input.multi-select-checkbox + .label-text:before{
+    content: "\f096";
+    font-family: "FontAwesome";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing:antialiased;
+    width: 18px;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  input.multi-select-checkbox:checked + .label-text:before{
+    content: "\f14a";
+    color: #333333;
+    animation: effect 250ms ease-in;
+  }
+
+  input.multi-select-checkbox:disabled + .label-text{
+    color: #aaa;
+  }
+
+  input.multi-select-checkbox:disabled + .label-text:before{
+    content: "\f0c8";
+    color: #ccc;
+  }
+
+}
+
+// Timerange MultiSelect
+.timerange-multi-select__dropdown{
+  position: absolute;
+  background-color: #eaeaea;
+  top: 40px;
+  left: -3px;
+  box-shadow: 0px 0px 2px 0px #827c7c;
+  z-index: 3;
+  @media (max-width: 355px) {
+    left: -33px;
+  }
+}
+.timerange-multi-select-checkbox-wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #9e9b9b;
+  margin-top: 18px;
+  width: 423px;
+  @media (max-width: 800px) {
+    height: 80px;
+  }
+
+  @media (max-width: 330px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media (max-width: 470px) {
+    width: 300px;
+  }
+  .multi-select-checkbox{
+    display: none;
+  }
+}
+
+// Timerange Datepicker
+.timerange-multi-select-datepicker-area{
+  .custom-timerange-title{
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 4px;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: white;
+    @media (max-width: 767px) {
+      font-size: 19px;
+      text-align: center;
+    }
+  }
+  .close-datepicker-wrapper{
+    font-size: 19px;
+    display: inline-block;
+    vertical-align: 2px;
+    margin-left: 8px;
+  }
+  .icon-close-datepicker{
+    font-size: 14px !important;
+    cursor: pointer;
+  }
+}
+
+.multi-select-checkbox-label-text{
+  font-size: 12px;
+  flex: 1 1 auto;
+  letter-spacing: 0.5px;
+  @media (max-width: 340px) {
+    font-size: 11px;
+    letter-spacing: 0;
+  }
+}
+
+.datepicker-inline{
+  display: flex !important;
+}
+label.multi-select-checkbox-label{
+  margin-bottom: 3px;
+}
+.datepicker-range{
+  min-width: 300px !important;
+}
+.datepicker-range .datepicker-popup{
+  width: 423px !important;
+  @media (max-width: 470px) {
+    width:300px !important;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+//Timerange multiselect select item
+.timerange-multi-select-checkbox-wrapper input.multi-select-checkbox + .label-text{
+  padding: 4px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.timerange-multi-select-checkbox-wrapper input.multi-select-checkbox:checked + .label-text{
+  color: white;
+  background-color: #9e9b9b;
+}

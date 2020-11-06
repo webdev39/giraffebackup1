@@ -1,0 +1,67 @@
+// Quill-editor
+@import "~quill/dist/quill.core.css";
+@import "~quill/dist/quill.snow.css";
+@import "~quill/dist/quill.bubble.css";
+
+.comment-content > .ql-editor {
+    min-height: 60px;
+}
+.ql-snow .ql-editor img {
+    max-width: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.ql-editor {
+    min-height: 100px;
+    padding-right: 15px;
+
+    .tag {
+        height: 24px;
+        width: 65px;
+        border-radius: 6px;
+        background-color: #d3e1eb;
+        padding: 3px;
+        color: #0366d6;
+    }
+
+    .blot-formatter__toolbar {
+        display: none;
+    }
+
+    &.comment-content {
+        overflow: hidden;
+    }
+
+    img {
+        position: relative;
+        cursor: pointer;
+        max-width: 100px;
+        margin-right: 10px;
+        border-radius: 5px;
+
+        &[alt]:after {
+            content: attr(alt);
+            position: absolute;
+            background: #4060c2;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 3px;
+            color: #fff;
+            text-align: center;
+            z-index: 1;
+        }
+    }
+}
+.quill-editor--de {
+    .ql-snow {
+        .ql-tooltip[data-mode=video]:before {
+            content: 'Video einfügen';
+        }
+        .ql-tooltip.ql-editing a.ql-action:after {
+            content: 'Speichern';
+        }
+    }
+}

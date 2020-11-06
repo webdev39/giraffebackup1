@@ -1,0 +1,56 @@
+.navigation-entry-head {
+  a:hover, a:focus {
+    color: white !important;
+    text-decoration: none;
+  }
+}
+
+.task-list-options {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  div {
+    width: 120px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+.task-name-title{
+  font-weight: bold;
+  height: 23px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.groupAndBoardFooter {
+  font-size: 14px !important;
+  overflow: hidden;
+}
+.deadline-page .task-name-title{
+  word-break: break-all;
+}
+.filter-page .task-name-title{
+  word-break: break-all;
+}
+
+#launchFilter {
+  margin: 10% 10%;
+}
+
+#groups-selected:checked + select,
+#boards-selected:checked + select {
+  display: block;
+}
+
+.filter-title-wrapper{
+  display: inline-block;
+  background-color: white;
+  padding: 10px 6px 7px;
+  border-radius: 10px;
+}
+
+

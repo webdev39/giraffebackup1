@@ -1,0 +1,32 @@
+#reports-wrapper{
+  width: 100%;
+  height: 100%;
+  #reports-navbar{
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    font-size: 14px;
+    color: $font-primary-color;
+    @media (max-width: 800px) {
+      flex-direction: column;
+      font-size: 18px;
+    }
+  }
+  .multi-select-checkbox-wrapper .label-text{
+    width: 160px;
+  }
+  .multi-select-checkbox-wrapper .multi-select-checkbox-label-text{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+#reports-navbar{
+  .multi-select-checkbox-wrapper .label-text{
+    width: 160px;
+  }
+  .multi-select-checkbox-wrapper .multi-select-checkbox-label-text{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

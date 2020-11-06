@@ -1,0 +1,119 @@
+#reports-wrapper{
+  width: 100%;
+  height: 100%;
+  .table-group {
+    overflow: unset;
+    // display: flex;
+  }
+  #reports-navbar{
+    position: relative;
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: $font-primary-color;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+      .reports-navbar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .reports-navbar-title {
+          font-size: 18px;
+          font-weight: bold;
+          padding-left: 0;
+          color: #333;
+        }
+        .button-holder {
+          position: absolute;
+          top: 10px;
+          right: 20px;
+           .button__icon {
+             i {
+               display: flex;
+               .icon {
+                width: 20px;
+                height: 20px;
+              }
+             }
+             .icon-download {
+               padding: 0 10px;
+                &:hover {
+                  .icon {
+                    fill: #a2a2a2;
+                  }
+                }
+             }
+             .icon-settings {
+              .icon {
+                fill: #a2a2a2;
+              }
+              &:hover {
+                .icon {
+                  fill: #333;
+                }
+              }
+             }
+           }
+        }
+      }
+      .reports-header-select {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        // font-size: 18px;
+          .multi-select {
+            padding: 0 10px !important;
+            //margin-bottom: 5px;
+              .multi-select__input-dropdown {
+                min-width: 55px;
+              }
+          }
+      }
+
+    // @media (max-width: 800px) {
+    //   flex-direction: column;
+    //   font-size: 18px;
+    // }
+    @media (min-width: 801px) {
+      padding-left: 10px;
+      .reports-navbar-header {
+        .reports-navbar-title {
+          padding-left: 10px;
+        }
+        .button-holder {
+          display: flex;
+          position: relative;
+          top: auto;
+          right: auto;
+        }
+      }
+      .reports-header-select {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 15px;
+        // font-size: 18px;
+      }
+     }
+  }
+  #total-time-wrapper {
+    padding: 0;
+    margin: 0 15px 0 auto;
+  }
+  .clearfix {
+    background-color: #fff;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 2;
+  }
+}
+
+.report-navbar-dropdown-menu{
+  // min-width: 14rem !important;
+  .router-link-active{
+    color: #5077f2;
+  }
+}

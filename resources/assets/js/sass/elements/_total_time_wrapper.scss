@@ -1,0 +1,43 @@
+#total-time-wrapper{
+  display: flex;
+  margin-top: 10px;
+  @media (max-width: 350px) {
+    flex-direction: column;
+  }
+
+  @media (max-width: 500px) {
+    justify-content: center;
+  }
+
+  .total-time-wrapper-item{
+    min-width: 170px;
+    @media (max-width: 500px) {
+      min-width: 130px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .total-time{
+        font-size: 14px;
+      }
+    }
+    .total-label{
+      display: inline-block;
+      vertical-align: 1px;
+      color: white;
+      font-weight: bold;
+      text-shadow: black 0 0 3px;
+      font-size: 13px;
+      }
+    .total-time{
+     /* display: inline-block;*/
+      /*text-indent: 10px;*/
+      margin-left: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      @media (min-width: 350px) and (max-width: 420px) {
+        font-size: 16px;
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+body {
+    font-family: "Helvetica-Roman", Helvetica, Arial, sans-serif;
+    color: $font-primary-color;
+}
+
+.form-btn {
+    &:hover {
+        background-color: white !important;
+    }
+}
+
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+    /*  outline: 3px auto !important;
+      outline-offset: -2px;*/
+}
+
+.btn {
+    @media (max-width: $screen-xs-max) {
+        padding: 6px 10px;
+    }
+
+    &:hover, &:focus, &.focus {
+        & .oc.grey-icon {
+            filter: invert(0.35);
+        }
+    }
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.secColor {
+    color: $font-secondary-color;
+}
+
+.text-align-right {
+    text-align: right !important;
+}
+
+.text-align-center {
+    text-align: center !important;
+}
+
+.own-devider {
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    mix-blend-mode: overlay;
+    margin: 10px -30px;
+}
+
+.padding {
+    padding: 2px !important;
+}
+
+.padding-bottom-10 {
+    padding-bottom: 10px !important;
+}
+
+.collapse.in {
+    display: block;
+    width: 100%;
+}
+
+.close {
+    float: none;
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+.form-control {
+    color: $font-primary-color;
+}
+
+.common-placeholder {
+    color: $font-secondary-color;
+}
+
+.navbar-dropdown-menu {
+    color: $font-primary-color;
+}
+
+div.group-member-row:last-child {
+    border-bottom: none !important;
+}
+
+.btn-fix-padding-icon {
+    // padding-top: 3px !important;
+}
+
+.group-settings-textarea {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 55px;
+}
+
+
+::-webkit-scrollbar-track {
+    // -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+    // //border-radius: 10px;
+    // background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 12px;
+    width: 26px;
+    // border-radius: 13px;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    //border-radius: 10px;
+    width: 26px;
+    // border-radius: 13px;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    box-shadow: inset 0 0 0 10px;
+
+}

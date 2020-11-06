@@ -1,0 +1,183 @@
+smartctl 6.5 2016-01-24 r4214 [x86_64-linux-4.15.0-43-generic] (local build)
+Copyright (C) 2002-16, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Device Model:     GOODRAM
+Serial Number:    FF360772070806941326
+LU WWN Device Id: 5 000000 000000000
+Firmware Version: SBFM71.0
+User Capacity:    240 057 409 536 bytes [240 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+Form Factor:      2.5 inches
+Device is:        Not in smartctl database [for details use: -P showall]
+ATA Version is:   Unknown(0x0ff8) (minor revision not indicated)
+SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Thu Jan 31 12:29:15 2019 EET
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(65535) seconds.
+Offline data collection
+capabilities: 			 (0x79) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  30) minutes.
+Conveyance self-test routine
+recommended polling time: 	 (   6) minutes.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       8735
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       1733
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       286
+168 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       0
+170 Unknown_Attribute       0x0003   081   081   010    Pre-fail  Always       -       768799146123
+173 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       983070
+192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       35
+194 Temperature_Celsius     0x0023   067   067   000    Pre-fail  Always       -       33 (Min/Max 33/33)
+218 Unknown_Attribute       0x000b   100   100   050    Pre-fail  Always       -       0
+231 Temperature_Celsius     0x0013   100   100   000    Pre-fail  Always       -       98
+241 Total_LBAs_Written      0x0012   100   100   000    Old_age   Always       -       3136
+
+SMART Error Log Version: 1
+ATA Error Count: 8616 (device log contains only the most recent five errors)
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 8616 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 08 f8 7f 91 e0  Error: UNC 8 sectors at LBA = 0x00917ff8 = 9535480
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 f8 7f 91 e0 08      00:00:00.000  READ DMA
+  c8 00 00 00 bd 93 ea 08      00:00:00.000  READ DMA
+  c8 00 00 00 bc 93 ea 08      00:00:00.000  READ DMA
+  ef 10 02 00 00 00 a0 08      00:00:00.000  SET FEATURES [Enable SATA feature]
+  27 00 00 00 00 00 e0 08      00:00:00.000  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+
+Error 8615 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 08 f8 7f 91 e0  Error: UNC 8 sectors at LBA = 0x00917ff8 = 9535480
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 f8 7f 91 e0 08      00:00:00.000  READ DMA
+  c8 00 00 00 bb 93 ea 08      00:00:00.000  READ DMA
+  c8 00 00 00 ba 93 ea 08      00:00:00.000  READ DMA
+  ef 10 02 00 00 00 a0 08      00:00:00.000  SET FEATURES [Enable SATA feature]
+  27 00 00 00 00 00 e0 08      00:00:00.000  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+
+Error 8614 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 08 f0 7f 91 e0  Error: UNC 8 sectors at LBA = 0x00917ff0 = 9535472
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 f0 7f 91 e0 08      00:00:00.000  READ DMA
+  c8 00 00 00 b9 93 ea 08      00:00:00.000  READ DMA
+  c8 00 00 00 b8 93 ea 08      00:00:00.000  READ DMA
+  ef 10 02 00 00 00 a0 08      00:00:00.000  SET FEATURES [Enable SATA feature]
+  27 00 00 00 00 00 e0 08      00:00:00.000  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+
+Error 8613 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 08 f0 7f 91 e0  Error: UNC 8 sectors at LBA = 0x00917ff0 = 9535472
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 f0 7f 91 e0 08      00:00:00.000  READ DMA
+  c8 00 00 00 b7 93 ea 08      00:00:00.000  READ DMA
+  c8 00 00 00 b6 93 ea 08      00:00:00.000  READ DMA
+  ef 10 02 00 00 00 a0 08      00:00:00.000  SET FEATURES [Enable SATA feature]
+  27 00 00 00 00 00 e0 08      00:00:00.000  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+
+Error 8612 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 08 e8 7f 91 e0  Error: UNC 8 sectors at LBA = 0x00917fe8 = 9535464
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 e8 7f 91 e0 08      00:00:00.000  READ DMA
+  c8 00 00 00 b5 93 ea 08      00:00:00.000  READ DMA
+  ef 10 02 00 00 00 a0 08      00:00:00.000  SET FEATURES [Enable SATA feature]
+  27 00 00 00 00 00 e0 08      00:00:00.000  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  ec 00 00 00 00 00 a0 08      00:00:00.000  IDENTIFY DEVICE
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+SMART Selective self-test log data structure revision number 0
+Note: revision number not 1 implies that no selective self-test has ever been run
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+

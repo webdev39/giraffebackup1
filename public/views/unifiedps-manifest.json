@@ -1,0 +1,7 @@
+{
+    "name": "Awesome Website",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "gcm_sender_id": "71562645621"
+}

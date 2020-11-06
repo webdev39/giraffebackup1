@@ -1,0 +1,956 @@
+[
+  {
+    "name": "afghani",
+    "code": "AFN",
+    "sub_unit": "pul",
+    "symbol": "\u060b"
+  },
+  {
+    "name": "lek",
+    "code": "ALL",
+    "sub_unit": "(qindar (pl. qindarka))",
+    "symbol": "Lek"
+  },
+  {
+    "name": "Algerian dinar",
+    "code": "DZD",
+    "sub_unit": "centime",
+    "symbol": "DZD"
+  },
+  {
+    "name": "US dollar",
+    "code": "USD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "euro",
+    "code": "EUR",
+    "sub_unit": "cent",
+    "symbol": "\u20ac"
+  },
+  {
+    "name": "kwanza",
+    "code": "AOA",
+    "sub_unit": "c\u00eantimo",
+    "symbol": "Kz"
+  },
+  {
+    "name": "East Caribbean dollar",
+    "code": "XCD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "Argentine peso",
+    "code": "ARS",
+    "sub_unit": "centavo",
+    "symbol": "$"
+  },
+  {
+    "name": "dram (inv.)",
+    "code": "AMD",
+    "sub_unit": "luma",
+    "symbol": "AMD"
+  },
+  {
+    "name": "Aruban guilder",
+    "code": "AWG",
+    "sub_unit": "cent",
+    "symbol": "\u0192"
+  },
+  {
+    "name": "Australian dollar",
+    "code": "AUD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "Azerbaijani manat",
+    "code": "AZN",
+    "sub_unit": "kepik (inv.)",
+    "symbol": "\u043c\u0430\u043d"
+  },
+  {
+    "name": "Bahamian dollar",
+    "code": "BSD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "Bahraini dinar",
+    "code": "BHD",
+    "sub_unit": "fils (inv.)",
+    "symbol": "BHD"
+  },
+  {
+    "name": "taka (inv.)",
+    "code": "BDT",
+    "sub_unit": "poisha (inv.)",
+    "symbol": "BDT"
+  },
+  {
+    "name": "Barbados dollar",
+    "code": "BBD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "Belarusian rouble",
+    "code": "BYR",
+    "sub_unit": "kopek",
+    "symbol": "p."
+  },
+  {
+    "name": "Belize dollar",
+    "code": "BZD",
+    "sub_unit": "cent",
+    "symbol": "BZ$"
+  },
+  {
+    "name": "CFA franc (BCEAO)",
+    "code": "XOF",
+    "sub_unit": "centime",
+    "symbol": "XOF"
+  },
+  {
+    "name": "Bermuda dollar",
+    "code": "BMD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "ngultrum (inv.)",
+    "code": "BTN",
+    "sub_unit": "chhetrum (inv.)",
+    "symbol": "BTN"
+  },
+  {
+    "name": "boliviano",
+    "code": "BOB",
+    "sub_unit": "centavo",
+    "symbol": "$b"
+  },
+  {
+    "name": "convertible mark",
+    "code": "BAM",
+    "sub_unit": "fening",
+    "symbol": "KM"
+  },
+  {
+    "name": "pula (inv.)",
+    "code": "BWP",
+    "sub_unit": "thebe (inv.)",
+    "symbol": "P"
+  },
+  {
+    "name": "real (pl. reais)",
+    "code": "BRL",
+    "sub_unit": "centavo",
+    "symbol": "R$"
+  },
+  {
+    "name": "Brunei dollar",
+    "code": "BND",
+    "sub_unit": "sen (inv.)",
+    "symbol": "$"
+  },
+  {
+    "name": "lev (pl. leva)",
+    "code": "BGN",
+    "sub_unit": "stotinka",
+    "symbol": "\u043b\u0432"
+  },
+  {
+    "name": "Burundi franc",
+    "code": "BIF",
+    "sub_unit": "centime",
+    "symbol": "BIF"
+  },
+  {
+    "name": "riel",
+    "code": "KHR",
+    "sub_unit": "sen (inv.)",
+    "symbol": "\u17db"
+  },
+  {
+    "name": "CFA franc (BEAC)",
+    "code": "XAF",
+    "sub_unit": "centime",
+    "symbol": "FCF"
+  },
+  {
+    "name": "Canadian dollar",
+    "code": "CAD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "Cape Verde escudo",
+    "code": "CVE",
+    "sub_unit": "centavo",
+    "symbol": "CVE"
+  },
+  {
+    "name": "Cayman Islands dollar",
+    "code": "KYD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "Chilean peso",
+    "code": "CLP",
+    "sub_unit": "centavo",
+    "symbol": "CLP"
+  },
+  {
+    "name": "renminbi-yuan (inv.)",
+    "code": "CNY",
+    "sub_unit": "jiao (10)",
+    "symbol": "\u00a5"
+  },
+  {
+    "name": "Colombian peso",
+    "code": "COP",
+    "sub_unit": "centavo",
+    "symbol": "$"
+  },
+  {
+    "name": "Comorian franc",
+    "code": "KMF",
+    "sub_unit": "",
+    "symbol": "KMF"
+  },
+  {
+    "name": "Congolese franc",
+    "code": "CDF",
+    "sub_unit": "centime",
+    "symbol": "CDF"
+  },
+  {
+    "name": "New Zealand dollar",
+    "code": "NZD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "Costa Rican col\u00f3n (pl. colones)",
+    "code": "CRC",
+    "sub_unit": "c\u00e9ntimo",
+    "symbol": "\u20a1"
+  },
+  {
+    "name": "kuna (inv.)",
+    "code": "HRK",
+    "sub_unit": "lipa (inv.)",
+    "symbol": "kn"
+  },
+  {
+    "name": "Cuban peso",
+    "code": "CUP",
+    "sub_unit": "centavo",
+    "symbol": "\u20b1"
+  },
+  {
+    "name": "Czech koruna (pl. koruny)",
+    "code": "CZK",
+    "sub_unit": "hal\u00e9r",
+    "symbol": "K\u010d"
+  },
+  {
+    "name": "Danish krone",
+    "code": "DKK",
+    "sub_unit": "\u00f8re (inv.)",
+    "symbol": "kr"
+  },
+  {
+    "name": "Djibouti franc",
+    "code": "DJF",
+    "sub_unit": "",
+    "symbol": "DJF"
+  },
+  {
+    "name": "Dominican peso",
+    "code": "DOP",
+    "sub_unit": "centavo",
+    "symbol": "RD$"
+  },
+  {
+    "name": "Egyptian pound",
+    "code": "EGP",
+    "sub_unit": "piastre",
+    "symbol": "\u00a3"
+  },
+  {
+    "name": "Salvadorian col\u00f3n (pl. colones)",
+    "code": "SVC",
+    "sub_unit": "centavo",
+    "symbol": "$"
+  },
+  {
+    "name": "nakfa",
+    "code": "ERN",
+    "sub_unit": "cent",
+    "symbol": "Nfk"
+  },
+  {
+    "name": "birr (inv.)",
+    "code": "ETB",
+    "sub_unit": "cent",
+    "symbol": "ETB"
+  },
+  {
+    "name": "Falkland Islands pound",
+    "code": "FKP",
+    "sub_unit": "new penny",
+    "symbol": "\u00a3"
+  },
+  {
+    "name": "Fiji dollar",
+    "code": "FJD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "CFP franc",
+    "code": "XPF",
+    "sub_unit": "centime",
+    "symbol": "XPF"
+  },
+  {
+    "name": "dalasi (inv.)",
+    "code": "GMD",
+    "sub_unit": "butut",
+    "symbol": "D"
+  },
+  {
+    "name": "lari",
+    "code": "GEL",
+    "sub_unit": "tetri (inv.)",
+    "symbol": "GEL"
+  },
+  {
+    "name": "Ghana cedi",
+    "code": "GHS",
+    "sub_unit": "pesewa",
+    "symbol": "\u00a2"
+  },
+  {
+    "name": "Gibraltar pound",
+    "code": "GIP",
+    "sub_unit": "penny",
+    "symbol": "\u00a3"
+  },
+  {
+    "name": "quetzal (pl. quetzales)",
+    "code": "GTQ",
+    "sub_unit": "centavo",
+    "symbol": "Q"
+  },
+  {
+    "name": "Guernsey pound (GG2)",
+    "code": "GGP (GG2)",
+    "sub_unit": "penny (pl. pence)",
+    "symbol": null
+  },
+  {
+    "name": "Guinean franc",
+    "code": "GNF",
+    "sub_unit": "",
+    "symbol": "GNF"
+  },
+  {
+    "name": "Guyana dollar",
+    "code": "GYD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "gourde",
+    "code": "HTG",
+    "sub_unit": "centime",
+    "symbol": "G"
+  },
+  {
+    "name": "lempira",
+    "code": "HNL",
+    "sub_unit": "centavo",
+    "symbol": "L"
+  },
+  {
+    "name": "Hong Kong dollar",
+    "code": "HKD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "forint (inv.)",
+    "code": "HUF",
+    "sub_unit": "(fill\u00e9r (inv.))",
+    "symbol": "Ft"
+  },
+  {
+    "name": "kr\u00f3na (pl. kr\u00f3nur)",
+    "code": "ISK",
+    "sub_unit": "",
+    "symbol": "kr"
+  },
+  {
+    "name": "Indian rupee",
+    "code": "INR",
+    "sub_unit": "paisa",
+    "symbol": "\u20b9"
+  },
+  {
+    "name": "Indonesian rupiah (inv.)",
+    "code": "IDR",
+    "sub_unit": "sen (inv.)",
+    "symbol": "Rp"
+  },
+  {
+    "name": "Iranian rial",
+    "code": "IRR",
+    "sub_unit": "(dinar) (IR1)",
+    "symbol": "\ufdfc"
+  },
+  {
+    "name": "Iraqi dinar",
+    "code": "IQD",
+    "sub_unit": "fils (inv.)",
+    "symbol": "IQD"
+  },
+  {
+    "name": "Manx pound (IM2)",
+    "code": "IMP (IM2)",
+    "sub_unit": "penny (pl. pence)",
+    "symbol": null
+  },
+  {
+    "name": "shekel",
+    "code": "ILS",
+    "sub_unit": "agora",
+    "symbol": "\u20aa"
+  },
+  {
+    "name": "Jamaica dollar",
+    "code": "JMD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "yen (inv.)",
+    "code": "JPY",
+    "sub_unit": "(sen (inv.)) (JP1)",
+    "symbol": "\u00a5"
+  },
+  {
+    "name": "Jersey pound (JE2)",
+    "code": "JEP (JE2)",
+    "sub_unit": "penny (pl. pence)",
+    "symbol": null
+  },
+  {
+    "name": "Jordanian dinar",
+    "code": "JOD",
+    "sub_unit": "100 qirsh",
+    "symbol": "JOD"
+  },
+  {
+    "name": "tenge (inv.)",
+    "code": "KZT",
+    "sub_unit": "tiyn",
+    "symbol": "\u043b\u0432"
+  },
+  {
+    "name": "Kenyan shilling",
+    "code": "KES",
+    "sub_unit": "cent",
+    "symbol": "KES"
+  },
+  {
+    "name": "North Korean won (inv.)",
+    "code": "KPW",
+    "sub_unit": "chun (inv.)",
+    "symbol": "\u20a9"
+  },
+  {
+    "name": "South Korean won (inv.)",
+    "code": "KRW",
+    "sub_unit": "(chun (inv.))",
+    "symbol": "\u20a9"
+  },
+  {
+    "name": "Kuwaiti dinar",
+    "code": "KWD",
+    "sub_unit": "fils (inv.)",
+    "symbol": "KWD"
+  },
+  {
+    "name": "som",
+    "code": "KGS",
+    "sub_unit": "tyiyn",
+    "symbol": "\u043b\u0432"
+  },
+  {
+    "name": "kip (inv.)",
+    "code": "LAK",
+    "sub_unit": "(at (inv.))",
+    "symbol": "\u20ad"
+  },
+  {
+    "name": "Lebanese pound",
+    "code": "LBP",
+    "sub_unit": "(piastre)",
+    "symbol": "\u00a3"
+  },
+  {
+    "name": "loti (pl. maloti)",
+    "code": "LSL",
+    "sub_unit": "sente",
+    "symbol": "L"
+  },
+  {
+    "name": "Liberian dollar",
+    "code": "LRD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "Libyan dinar",
+    "code": "LYD",
+    "sub_unit": "dirham",
+    "symbol": "LYD"
+  },
+  {
+    "name": "Swiss franc",
+    "code": "CHF",
+    "sub_unit": "centime",
+    "symbol": "CHF"
+  },
+  {
+    "name": "pataca",
+    "code": "MOP",
+    "sub_unit": "avo",
+    "symbol": "MOP"
+  },
+  {
+    "name": "denar (pl. denars)",
+    "code": "MKD",
+    "sub_unit": "deni (inv.)",
+    "symbol": "\u0434\u0435\u043d"
+  },
+  {
+    "name": "ariary",
+    "code": "MGA",
+    "sub_unit": "iraimbilanja (inv.)",
+    "symbol": "MGA"
+  },
+  {
+    "name": "Malawian kwacha (inv.)",
+    "code": "MWK",
+    "sub_unit": "tambala (inv.)",
+    "symbol": "MK"
+  },
+  {
+    "name": "ringgit (inv.)",
+    "code": "MYR",
+    "sub_unit": "sen (inv.)",
+    "symbol": "RM"
+  },
+  {
+    "name": "rufiyaa",
+    "code": "MVR",
+    "sub_unit": "laari (inv.)",
+    "symbol": "Rf"
+  },
+  {
+    "name": "ouguiya",
+    "code": "MRO",
+    "sub_unit": "khoum",
+    "symbol": "UM"
+  },
+  {
+    "name": "Mauritian rupee",
+    "code": "MUR",
+    "sub_unit": "cent",
+    "symbol": "\u20a8"
+  },
+  {
+    "name": "Mexican peso",
+    "code": "MXN",
+    "sub_unit": "centavo",
+    "symbol": "$"
+  },
+  {
+    "name": "Moldovan leu (pl. lei)",
+    "code": "MDL",
+    "sub_unit": "ban",
+    "symbol": "MDL"
+  },
+  {
+    "name": "tugrik",
+    "code": "MNT",
+    "sub_unit": "m\u00f6ng\u00f6 (inv.)",
+    "symbol": "\u20ae"
+  },
+  {
+    "name": "Moroccan dirham",
+    "code": "MAD",
+    "sub_unit": "centime",
+    "symbol": "MAD"
+  },
+  {
+    "name": "metical",
+    "code": "MZN",
+    "sub_unit": "centavo",
+    "symbol": "MT"
+  },
+  {
+    "name": "kyat",
+    "code": "MMK",
+    "sub_unit": "pya",
+    "symbol": "K"
+  },
+  {
+    "name": "Namibian dollar",
+    "code": "NAD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "Nepalese rupee",
+    "code": "NPR",
+    "sub_unit": "paisa (inv.)",
+    "symbol": "\u20a8"
+  },
+  {
+    "name": "c\u00f3rdoba oro",
+    "code": "NIO",
+    "sub_unit": "centavo",
+    "symbol": "C$"
+  },
+  {
+    "name": "naira (inv.)",
+    "code": "NGN",
+    "sub_unit": "kobo (inv.)",
+    "symbol": "\u20a6"
+  },
+  {
+    "name": "Norwegian krone (pl. kroner)",
+    "code": "NOK",
+    "sub_unit": "\u00f8re (inv.)",
+    "symbol": "kr"
+  },
+  {
+    "name": "Omani rial",
+    "code": "OMR",
+    "sub_unit": "baiza",
+    "symbol": "\ufdfc"
+  },
+  {
+    "name": "Pakistani rupee",
+    "code": "PKR",
+    "sub_unit": "paisa",
+    "symbol": "\u20a8"
+  },
+  {
+    "name": "balboa",
+    "code": "PAB",
+    "sub_unit": "cent\u00e9simo",
+    "symbol": "B\/."
+  },
+  {
+    "name": "kina (inv.)",
+    "code": "PGK",
+    "sub_unit": "toea (inv.)",
+    "symbol": "PGK"
+  },
+  {
+    "name": "guaran\u00ed",
+    "code": "PYG",
+    "sub_unit": "c\u00e9ntimo",
+    "symbol": "Gs"
+  },
+  {
+    "name": "new sol",
+    "code": "PEN",
+    "sub_unit": "c\u00e9ntimo",
+    "symbol": "S\/."
+  },
+  {
+    "name": "Philippine peso",
+    "code": "PHP",
+    "sub_unit": "centavo",
+    "symbol": "Php"
+  },
+  {
+    "name": "zloty",
+    "code": "PLN",
+    "sub_unit": "grosz (pl. groszy)",
+    "symbol": "z\u0142"
+  },
+  {
+    "name": "Qatari riyal",
+    "code": "QAR",
+    "sub_unit": "dirham",
+    "symbol": "\ufdfc"
+  },
+  {
+    "name": "Romanian leu (pl. lei)",
+    "code": "RON",
+    "sub_unit": "ban (pl. bani)",
+    "symbol": "lei"
+  },
+  {
+    "name": "Russian rouble",
+    "code": "RUB",
+    "sub_unit": "kopek",
+    "symbol": "\u0440\u0443\u0431"
+  },
+  {
+    "name": "Rwandese franc",
+    "code": "RWF",
+    "sub_unit": "centime",
+    "symbol": "RWF"
+  },
+  {
+    "name": "Saint Helena pound",
+    "code": "SHP",
+    "sub_unit": "penny",
+    "symbol": "\u00a3"
+  },
+  {
+    "name": "tala (inv.)",
+    "code": "WST",
+    "sub_unit": "sene (inv.)",
+    "symbol": "WS$"
+  },
+  {
+    "name": "dobra",
+    "code": "STD",
+    "sub_unit": "centavo",
+    "symbol": "Db"
+  },
+  {
+    "name": "riyal",
+    "code": "SAR",
+    "sub_unit": "halala",
+    "symbol": "\ufdfc"
+  },
+  {
+    "name": "Serbian dinar",
+    "code": "RSD",
+    "sub_unit": "para (inv.)",
+    "symbol": null
+  },
+  {
+    "name": "Seychelles rupee",
+    "code": "SCR",
+    "sub_unit": "cent",
+    "symbol": "\u20a8"
+  },
+  {
+    "name": "leone",
+    "code": "SLL",
+    "sub_unit": "cent",
+    "symbol": "Le"
+  },
+  {
+    "name": "Singapore dollar",
+    "code": "SGD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "Netherlands Antillean guilder",
+    "code": "ANG",
+    "sub_unit": "cent",
+    "symbol": null
+  },
+  {
+    "name": "Solomon Islands dollar",
+    "code": "SBD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "Somali shilling",
+    "code": "SOS",
+    "sub_unit": "cent",
+    "symbol": "S"
+  },
+  {
+    "name": "rand",
+    "code": "ZAR",
+    "sub_unit": "cent",
+    "symbol": "R"
+  },
+  {
+    "name": "South Sudanese pound",
+    "code": "SSP",
+    "sub_unit": "piaster",
+    "symbol": null
+  },
+  {
+    "name": "Sri Lankan rupee",
+    "code": "LKR",
+    "sub_unit": "cent",
+    "symbol": "\u20a8"
+  },
+  {
+    "name": "Sudanese pound",
+    "code": "SDG",
+    "sub_unit": "piastre",
+    "symbol": null
+  },
+  {
+    "name": "Surinamese dollar",
+    "code": "SRD",
+    "sub_unit": "cent",
+    "symbol": "$"
+  },
+  {
+    "name": "lilangeni",
+    "code": "SZL",
+    "sub_unit": "cent",
+    "symbol": "SZL"
+  },
+  {
+    "name": "krona (pl. kronor)",
+    "code": "SEK",
+    "sub_unit": "\u00f6re (inv.)",
+    "symbol": "kr"
+  },
+  {
+    "name": "Syrian pound",
+    "code": "SYP",
+    "sub_unit": "piastre",
+    "symbol": "\u00a3"
+  },
+  {
+    "name": "new Taiwan dollar",
+    "code": "TWD",
+    "sub_unit": "fen (inv.)",
+    "symbol": "NT$"
+  },
+  {
+    "name": "somoni",
+    "code": "TJS",
+    "sub_unit": "diram",
+    "symbol": "TJS"
+  },
+  {
+    "name": "Tanzanian shilling",
+    "code": "TZS",
+    "sub_unit": "cent",
+    "symbol": "TZS"
+  },
+  {
+    "name": "baht (inv.)",
+    "code": "THB",
+    "sub_unit": "satang (inv.)",
+    "symbol": "\u0e3f"
+  },
+  {
+    "name": "pa\u2019anga (inv.)",
+    "code": "TOP",
+    "sub_unit": "seniti (inv.)",
+    "symbol": "T$"
+  },
+  {
+    "name": "Trinidad and Tobago dollar",
+    "code": "TTD",
+    "sub_unit": "cent",
+    "symbol": "TT$"
+  },
+  {
+    "name": "Tunisian dinar",
+    "code": "TND",
+    "sub_unit": "millime",
+    "symbol": "TND"
+  },
+  {
+    "name": "Turkish lira (inv.)",
+    "code": "TRY",
+    "sub_unit": "kurus (inv.)",
+    "symbol": "\u20ba"
+  },
+  {
+    "name": "Turkmen manat (inv.)",
+    "code": "TMT",
+    "sub_unit": "tenge (inv.)",
+    "symbol": "m"
+  },
+  {
+    "name": "Uganda shilling",
+    "code": "UGX",
+    "sub_unit": "cent",
+    "symbol": "UGX"
+  },
+  {
+    "name": "hryvnia",
+    "code": "UAH",
+    "sub_unit": "kopiyka",
+    "symbol": "\u20b4"
+  },
+  {
+    "name": "UAE dirham",
+    "code": "AED",
+    "sub_unit": "fils (inv.)",
+    "symbol": "AED"
+  },
+  {
+    "name": "pound sterling",
+    "code": "GBP",
+    "sub_unit": "penny (pl. pence)",
+    "symbol": "\u00a3"
+  },
+  {
+    "name": "Uruguayan peso",
+    "code": "UYU",
+    "sub_unit": "cent\u00e9simo",
+    "symbol": "$U"
+  },
+  {
+    "name": "sum (inv.)",
+    "code": "UZS",
+    "sub_unit": "tiyin (inv.)",
+    "symbol": "\u043b\u0432"
+  },
+  {
+    "name": "vatu (inv.)",
+    "code": "VUV",
+    "sub_unit": "",
+    "symbol": "Vt"
+  },
+  {
+    "name": "bol\u00edvar fuerte (pl. bol\u00edvares fuertes)",
+    "code": "VEF",
+    "sub_unit": "c\u00e9ntimo",
+    "symbol": "Bs"
+  },
+  {
+    "name": "dong",
+    "code": "VND",
+    "sub_unit": "(10 h\u00e0o",
+    "symbol": "\u20ab"
+  },
+  {
+    "name": "Yemeni rial",
+    "code": "YER",
+    "sub_unit": "fils (inv.)",
+    "symbol": "\ufdfc"
+  },
+  {
+    "name": "Zambian kwacha (inv.)",
+    "code": "ZMW",
+    "sub_unit": "ngwee (inv.)",
+    "symbol": "ZK"
+  },
+  {
+    "name": "Zimbabwe dollar (ZW1)",
+    "code": "ZWL",
+    "sub_unit": "cent",
+    "symbol": "Z$"
+  }
+]
